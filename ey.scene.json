@@ -1,0 +1,3205 @@
+{
+    "version": 0, 
+    "metadata": {
+        "postprocessing": {
+            "enabled": true, 
+            "effects": {
+                "SMAAEffect": {
+                    "isActive": true, 
+                    "blendFunction": 13, 
+                    "preset": 1, 
+                    "edgeDetectionMode": 2, 
+                    "predicationMode": 0
+                }, 
+                "OutlineEffect": {
+                    "isActive": true, 
+                    "blendFunction": 16, 
+                    "patternTexture": null, 
+                    "edgeStrength": 1, 
+                    "pulseSpeed": 0, 
+                    "visibleEdgeColor": 16777215, 
+                    "hiddenEdgeColor": 16777215, 
+                    "resolutionScale": 0.5, 
+                    "width": -1, 
+                    "height": -1, 
+                    "kernelSize": 0, 
+                    "blur": false, 
+                    "xRay": true
+                }, 
+                "SSAOEffect": {
+                    "isActive": false, 
+                    "blendFunction": 10, 
+                    "distanceScaling": true, 
+                    "depthAwareUpsampling": true, 
+                    "samples": 16, 
+                    "rings": 7, 
+                    "distanceThreshold": 0.125, 
+                    "distanceFalloff": 0.02, 
+                    "minRadiusScale": 1, 
+                    "bias": 0.25, 
+                    "radius": 0.01, 
+                    "intensity": 2, 
+                    "fade": 0.05
+                }, 
+                "DepthOfFieldEffect": {
+                    "isActive": false, 
+                    "blendFunction": 13, 
+                    "focusDistance": 0.02, 
+                    "focalLength": 0.5, 
+                    "bokehScale": 1
+                }, 
+                "BloomEffect": {
+                    "isActive": true, 
+                    "blendFunction": 16, 
+                    "kernelSize": 2, 
+                    "luminanceThreshold": 1, 
+                    "luminanceSmoothing": 0.1, 
+                    "intensity": 0.2
+                }, 
+                "ToneMappingEffect": {
+                    "isActive": false, 
+                    "blendFunction": 13, 
+                    "adaptive": true, 
+                    "resolution": 512, 
+                    "middleGrey": 0.6, 
+                    "maxLuminance": 32, 
+                    "averageLuminance": 1, 
+                    "adaptationRate": 2
+                }, 
+                "BrightnessContrastEffect": {
+                    "isActive": false, 
+                    "brightness": 0.05, 
+                    "contrast": 0.1
+                }, 
+                "HueSaturationEffect": {
+                    "isActive": false, 
+                    "hue": 0, 
+                    "saturation": -0.15
+                }, 
+                "ColorDepthEffect": {
+                    "isActive": false, 
+                    "bits": 16
+                }, 
+                "LinearTosRGBEffect": {
+                    "isActive": false
+                }
+            }
+        }, 
+        "mediaSettings": {
+            "immersiveMedia": false, 
+            "refDistance": 20, 
+            "rolloffFactor": 1, 
+            "maxDistance": 10000, 
+            "distanceModel": "linear", 
+            "coneInnerAngle": 360, 
+            "coneOuterAngle": 0, 
+            "coneOuterGain": 0
+        }, 
+        "renderSettings": {
+            "LODs": {
+                "x": 5, 
+                "y": 15, 
+                "z": 30
+            }, 
+            "csm": true, 
+            "toneMapping": 1, 
+            "toneMappingExposure": 0.8, 
+            "shadowMapType": 2
+        }, 
+        "fog": {
+            "type": "linear", 
+            "color": 16777215, 
+            "near": 1, 
+            "far": 200, 
+            "density": 0.005, 
+            "height": 0.05, 
+            "timeScale": 1
+        }
+    }, 
+    "entities": {
+        "d32b1c4e-d08e-4fb0-9107-4c88a281ee71": {
+            "components": [
+                {
+                    "name": "visible", 
+                    "props": { }
+                }, 
+                {
+                    "name": "transform", 
+                    "props": {
+                        "position": {
+                            "x": 0, 
+                            "y": 0, 
+                            "z": 0
+                        }, 
+                        "rotation": {
+                            "x": 0, 
+                            "y": 0, 
+                            "z": 0
+                        }, 
+                        "scale": {
+                            "x": 1, 
+                            "y": 1, 
+                            "z": 1
+                        }
+                    }
+                }, 
+                {
+                    "name": "envmapbake", 
+                    "props": {
+                        "bakeType": "Baked", 
+                        "resolution": 2048, 
+                        "refreshMode": "OnAwake", 
+                        "envMapOrigin": "__$project$__/default-project/ey.envmap.png", 
+                        "boxProjection": true, 
+                        "bakePosition": {
+                            "x": 0, 
+                            "y": 0, 
+                            "z": 0
+                        }, 
+                        "bakePositionOffset": {
+                            "x": 0, 
+                            "y": 0, 
+                            "z": 0
+                        }, 
+                        "bakeScale": {
+                            "x": 1, 
+                            "y": 1, 
+                            "z": 1
+                        }
+                    }
+                }
+            ], 
+            "name": "empty_scene"
+        }, 
+        "bb362197-f14d-4da7-9c3c-1ed834386423": {
+            "components": [
+                {
+                    "name": "transform", 
+                    "props": {
+                        "position": {
+                            "x": 0, 
+                            "y": 0, 
+                            "z": 0
+                        }, 
+                        "rotation": {
+                            "x": 0, 
+                            "y": 0, 
+                            "z": 0
+                        }, 
+                        "scale": {
+                            "x": 1, 
+                            "y": 1, 
+                            "z": 1
+                        }
+                    }
+                }, 
+                {
+                    "name": "visible", 
+                    "props": { }
+                }
+            ], 
+            "parent": "d32b1c4e-d08e-4fb0-9107-4c88a281ee71", 
+            "index": 0, 
+            "name": "scene preview camera"
+        }, 
+        "e7d6bfb1-6390-4a8b-b744-da83b059c2d3": {
+            "components": [
+                {
+                    "name": "transform", 
+                    "props": {
+                        "position": {
+                            "x": 0, 
+                            "y": 0, 
+                            "z": 0
+                        }, 
+                        "rotation": {
+                            "x": 0, 
+                            "y": 0, 
+                            "z": 0
+                        }, 
+                        "scale": {
+                            "x": 1, 
+                            "y": 1, 
+                            "z": 1
+                        }
+                    }
+                }, 
+                {
+                    "name": "visible", 
+                    "props": { }
+                }, 
+                {
+                    "name": "skybox", 
+                    "props": {
+                        "backgroundColor": 0, 
+                        "equirectangularPath": "", 
+                        "cubemapPath": "__$project$__/default-project/assets/skyboxsun25deg/", 
+                        "backgroundType": 1, 
+                        "skyboxProps": {
+                            "turbidity": 10, 
+                            "rayleigh": 1, 
+                            "luminance": 1, 
+                            "mieCoefficient": 0.004999999999999893, 
+                            "mieDirectionalG": 0.99, 
+                            "inclination": 0.10471975511965978, 
+                            "azimuth": 0.16666666666666666
+                        }
+                    }
+                }
+            ], 
+            "parent": "d32b1c4e-d08e-4fb0-9107-4c88a281ee71", 
+            "index": 1, 
+            "name": "skybox"
+        }, 
+        "38793f94-0b92-4ea1-af7b-5ec0e117628d": {
+            "components": [
+                {
+                    "name": "transform", 
+                    "props": {
+                        "position": {
+                            "x": 0, 
+                            "y": 0, 
+                            "z": 0
+                        }, 
+                        "rotation": {
+                            "x": 0, 
+                            "y": 0, 
+                            "z": 0
+                        }, 
+                        "scale": {
+                            "x": 1.000000013351432e-10, 
+                            "y": 0.10000000149011612, 
+                            "z": 0.10000000149011612
+                        }
+                    }
+                }, 
+                {
+                    "name": "visible", 
+                    "props": { }
+                }, 
+                {
+                    "name": "ground-plane", 
+                    "props": {
+                        "color": 8311585, 
+                        "generateNavmesh": false
+                    }
+                }, 
+                {
+                    "name": "shadow", 
+                    "props": {
+                        "cast": true, 
+                        "receive": true
+                    }
+                }
+            ], 
+            "parent": "d32b1c4e-d08e-4fb0-9107-4c88a281ee71", 
+            "index": 2, 
+            "name": "ground plane"
+        }, 
+        "3e8a430e-9dcf-440e-990c-44ecb8051762": {
+            "components": [
+                {
+                    "name": "transform", 
+                    "props": {
+                        "position": {
+                            "x": 0.20000000298023224, 
+                            "y": 7.151097491941982e-10, 
+                            "z": 21.299999237060547
+                        }, 
+                        "rotation": {
+                            "x": -3.141592653589793, 
+                            "y": 0.008726645790757487, 
+                            "z": -3.141592653589793
+                        }, 
+                        "scale": {
+                            "x": 1, 
+                            "y": 1, 
+                            "z": 1
+                        }
+                    }
+                }, 
+                {
+                    "name": "visible", 
+                    "props": { }
+                }, 
+                {
+                    "name": "spawn-point", 
+                    "props": {
+                        "permissionedUsers": [ ]
+                    }
+                }
+            ], 
+            "parent": "d32b1c4e-d08e-4fb0-9107-4c88a281ee71", 
+            "index": 3, 
+            "name": "spawn point"
+        }, 
+        "f77dc4c6-c9a6-433d-8102-4a9a8e1c0ce9": {
+            "components": [
+                {
+                    "name": "transform", 
+                    "props": {
+                        "position": {
+                            "x": 0, 
+                            "y": 0, 
+                            "z": 0
+                        }, 
+                        "rotation": {
+                            "x": 0, 
+                            "y": 0, 
+                            "z": 0
+                        }, 
+                        "scale": {
+                            "x": 1, 
+                            "y": 1, 
+                            "z": 1
+                        }
+                    }
+                }, 
+                {
+                    "name": "visible", 
+                    "props": { }
+                }, 
+                {
+                    "name": "hemisphere-light", 
+                    "props": {
+                        "skyColor": 16777215, 
+                        "groundColor": 16777215, 
+                        "intensity": 1
+                    }
+                }
+            ], 
+            "parent": "d32b1c4e-d08e-4fb0-9107-4c88a281ee71", 
+            "index": 4, 
+            "name": "hemisphere light"
+        }, 
+        "cb045cfd-8daf-4a2b-b764-35625be54a11": {
+            "components": [
+                {
+                    "name": "transform", 
+                    "props": {
+                        "position": {
+                            "x": 0, 
+                            "y": 10, 
+                            "z": 0
+                        }, 
+                        "rotation": {
+                            "x": 0.5235987826331087, 
+                            "y": 0.609119929255003, 
+                            "z": 2.604002372320199e-9
+                        }, 
+                        "scale": {
+                            "x": 1, 
+                            "y": 1, 
+                            "z": 1
+                        }
+                    }
+                }, 
+                {
+                    "name": "directional-light", 
+                    "props": {
+                        "color": 16777215, 
+                        "intensity": 1, 
+                        "castShadow": true, 
+                        "shadowMapResolution": [
+                            512, 
+                            512
+                        ], 
+                        "shadowBias": -0.00001, 
+                        "shadowRadius": 1, 
+                        "cameraFar": 2000, 
+                        "useInCSM": true
+                    }
+                }
+            ], 
+            "parent": "d32b1c4e-d08e-4fb0-9107-4c88a281ee71", 
+            "index": 5, 
+            "name": "directional light"
+        }, 
+        "87df7b80-3c4f-4272-8e44-bc28315a99ad": {
+            "components": [
+                {
+                    "name": "transform", 
+                    "props": {
+                        "position": {
+                            "x": 1.9821311235427856, 
+                            "y": 3.451725959777832, 
+                            "z": -12.379348754882812
+                        }, 
+                        "rotation": {
+                            "x": 0, 
+                            "y": 0, 
+                            "z": 0
+                        }, 
+                        "scale": {
+                            "x": 1, 
+                            "y": 1, 
+                            "z": 1
+                        }
+                    }
+                }, 
+                {
+                    "name": "visible", 
+                    "props": { }
+                }, 
+                {
+                    "name": "media", 
+                    "props": {
+                        "controls": true, 
+                        "autoplay": true, 
+                        "paths": [
+                            "__$project$__/default-project/assets/bgyBgm.mp3"
+                        ], 
+                        "playMode": "loop", 
+                        "isMusic": true
+                    }
+                }, 
+                {
+                    "name": "audio", 
+                    "props": {
+                        "distanceModel": "inverse", 
+                        "rolloffFactor": 1, 
+                        "refDistance": 20, 
+                        "maxDistance": 1000, 
+                        "coneInnerAngle": 360, 
+                        "coneOuterAngle": 360, 
+                        "coneOuterGain": 1
+                    }
+                }
+            ], 
+            "parent": "d32b1c4e-d08e-4fb0-9107-4c88a281ee71", 
+            "index": 6, 
+            "name": "BGM"
+        }, 
+        "952a6c38-fe35-4e71-898f-b1ec184b3411": {
+            "components": [
+                {
+                    "name": "transform", 
+                    "props": {
+                        "position": {
+                            "x": 0, 
+                            "y": 0, 
+                            "z": 0
+                        }, 
+                        "rotation": {
+                            "x": 0, 
+                            "y": 0, 
+                            "z": 0
+                        }, 
+                        "scale": {
+                            "x": 1, 
+                            "y": 1, 
+                            "z": 1
+                        }
+                    }
+                }, 
+                {
+                    "name": "visible", 
+                    "props": { }
+                }, 
+                {
+                    "name": "ambient-light", 
+                    "props": {
+                        "color": 16777215, 
+                        "intensity": 2
+                    }
+                }
+            ], 
+            "parent": "d32b1c4e-d08e-4fb0-9107-4c88a281ee71", 
+            "index": 7, 
+            "name": "Ambient Light"
+        }, 
+        "f294a13a-b2af-4ade-8392-7fc6f3b5dfe2": {
+            "components": [
+                {
+                    "name": "transform", 
+                    "props": {
+                        "position": {
+                            "x": 13.959038734436035, 
+                            "y": 1.4998339414596558, 
+                            "z": 10.203811645507812
+                        }, 
+                        "rotation": {
+                            "x": -0.8912608152805158, 
+                            "y": 0.38320088224176807, 
+                            "z": 0.43344524576729926
+                        }, 
+                        "scale": {
+                            "x": 1, 
+                            "y": 1, 
+                            "z": 1
+                        }
+                    }
+                }
+            ], 
+            "parent": "d32b1c4e-d08e-4fb0-9107-4c88a281ee71", 
+            "index": 8
+        }, 
+        "2ac2797c-82c0-4e7f-abf2-7d7645bbd7aa": {
+            "components": [
+                {
+                    "name": "transform", 
+                    "props": {
+                        "position": {
+                            "x": 0, 
+                            "y": -6.599999904632568, 
+                            "z": 0
+                        }, 
+                        "rotation": {
+                            "x": 0, 
+                            "y": 0, 
+                            "z": 0
+                        }, 
+                        "scale": {
+                            "x": 1, 
+                            "y": 1, 
+                            "z": 1
+                        }
+                    }
+                }, 
+                {
+                    "name": "shadow", 
+                    "props": {
+                        "cast": true, 
+                        "receive": true
+                    }
+                }, 
+                {
+                    "name": "gltf-model", 
+                    "props": {
+                        "src": "https://xr-resources.yee.link/ey/AnYong_new1.glb", 
+                        "materialOverrides": [ ], 
+                        "generateBVH": false, 
+                        "matrixAutoUpdate": true
+                    }
+                }, 
+                {
+                    "name": "envmap", 
+                    "props": {
+                        "type": "Skybox", 
+                        "envMapTextureType": "Cubemap", 
+                        "envMapSourceColor": 1193046, 
+                        "envMapSourceURL": "/hdr/cubemap/skyboxsun25deg/", 
+                        "envMapIntensity": 1, 
+                        "envMapBake": {
+                            "bakeType": "Baked", 
+                            "resolution": 2048, 
+                            "refreshMode": "OnAwake", 
+                            "envMapOrigin": "", 
+                            "boxProjection": true, 
+                            "bakePosition": {
+                                "x": 0, 
+                                "y": 0, 
+                                "z": 0
+                            }, 
+                            "bakePositionOffset": {
+                                "x": 0, 
+                                "y": 0, 
+                                "z": 0
+                            }, 
+                            "bakeScale": {
+                                "x": 1, 
+                                "y": 1, 
+                                "z": 1
+                            }
+                        }
+                    }
+                }, 
+                {
+                    "name": "loop-animation", 
+                    "props": {
+                        "activeClipIndex": -1, 
+                        "hasAvatarAnimations": false
+                    }
+                }, 
+                {
+                    "name": "visible", 
+                    "props": { }
+                }
+            ], 
+            "parent": "d32b1c4e-d08e-4fb0-9107-4c88a281ee71", 
+            "index": 9, 
+            "name": "Model"
+        }, 
+        "529c1f41-e597-4189-8470-28aadaee154e": {
+            "components": [
+                {
+                    "name": "transform", 
+                    "props": {
+                        "position": {
+                            "x": -0.11627904325723648, 
+                            "y": 4.766071796417236, 
+                            "z": 44.65095901489258
+                        }, 
+                        "rotation": {
+                            "x": -0.10633799661691595, 
+                            "y": -0.00258946222374011, 
+                            "z": -0.0002764005364432379
+                        }, 
+                        "scale": {
+                            "x": 1, 
+                            "y": 1, 
+                            "z": 1
+                        }
+                    }
+                }
+            ], 
+            "parent": "d32b1c4e-d08e-4fb0-9107-4c88a281ee71", 
+            "index": 10
+        }, 
+        "6f0f67ce-a23d-4bfa-95b9-dfffd246256c": {
+            "components": [
+                {
+                    "name": "transform", 
+                    "props": {
+                        "position": {
+                            "x": -2.0235981779137546e-9, 
+                            "y": 1.5499999523162842, 
+                            "z": 4.900000095367432
+                        }, 
+                        "rotation": {
+                            "x": 0, 
+                            "y": 0, 
+                            "z": 0
+                        }, 
+                        "scale": {
+                            "x": 1.500000238418579, 
+                            "y": 2.700000047683716, 
+                            "z": 1.600000262260437
+                        }
+                    }
+                }, 
+                {
+                    "name": "shadow", 
+                    "props": {
+                        "cast": true, 
+                        "receive": true
+                    }
+                }, 
+                {
+                    "name": "image", 
+                    "props": {
+                        "source": "https://xr-resources.yee.link/ey/s1.jpg", 
+                        "alphaMode": "Opaque", 
+                        "alphaCutoff": 0.5, 
+                        "projection": "Flat", 
+                        "side": 2
+                    }
+                }, 
+                {
+                    "name": "visible", 
+                    "props": { }
+                }
+            ], 
+            "parent": "d32b1c4e-d08e-4fb0-9107-4c88a281ee71", 
+            "index": 11, 
+            "name": "s1"
+        }, 
+        "03b85d5b-7e37-4522-893b-f5bcf4a8f5e4": {
+            "components": [
+                {
+                    "name": "transform", 
+                    "props": {
+                        "position": {
+                            "x": 0.2585308849811554, 
+                            "y": 2.4820899963378906, 
+                            "z": 9.668248176574707
+                        }, 
+                        "rotation": {
+                            "x": -0.19281451551841122, 
+                            "y": 0.05431805122925704, 
+                            "z": 0.010599447844953772
+                        }, 
+                        "scale": {
+                            "x": 1, 
+                            "y": 1, 
+                            "z": 1
+                        }
+                    }
+                }
+            ], 
+            "parent": "d32b1c4e-d08e-4fb0-9107-4c88a281ee71", 
+            "index": 12
+        }, 
+        "c964c4d2-d429-478d-9422-3215ca6bc157": {
+            "components": [
+                {
+                    "name": "transform", 
+                    "props": {
+                        "position": {
+                            "x": -4.899999618530273, 
+                            "y": 1.5499999523162842, 
+                            "z": -1.4901158085223187e-9
+                        }, 
+                        "rotation": {
+                            "x": 0, 
+                            "y": -1.5704263768429216, 
+                            "z": 0
+                        }, 
+                        "scale": {
+                            "x": 1.5000001192092896, 
+                            "y": 2.700000286102295, 
+                            "z": 8.940696183401542e-9
+                        }
+                    }
+                }, 
+                {
+                    "name": "visible", 
+                    "props": { }
+                }, 
+                {
+                    "name": "shadow", 
+                    "props": {
+                        "cast": true, 
+                        "receive": true
+                    }
+                }, 
+                {
+                    "name": "image", 
+                    "props": {
+                        "source": "https://xr-resources.yee.link/ey/s2.jpg", 
+                        "alphaMode": "Opaque", 
+                        "alphaCutoff": 0.5, 
+                        "projection": "Flat", 
+                        "side": 2
+                    }
+                }
+            ], 
+            "parent": "d32b1c4e-d08e-4fb0-9107-4c88a281ee71", 
+            "index": 13, 
+            "name": "s2"
+        }, 
+        "e81367c2-9cf1-4a18-b530-958128ef280d": {
+            "components": [
+                {
+                    "name": "transform", 
+                    "props": {
+                        "position": {
+                            "x": -12.465470314025879, 
+                            "y": 2.8841264247894287, 
+                            "z": -0.3017001450061798
+                        }, 
+                        "rotation": {
+                            "x": -1.6750240945593067, 
+                            "y": -1.34222971421375, 
+                            "z": -1.6777863058260707
+                        }, 
+                        "scale": {
+                            "x": 1, 
+                            "y": 1, 
+                            "z": 1
+                        }
+                    }
+                }
+            ], 
+            "parent": "d32b1c4e-d08e-4fb0-9107-4c88a281ee71", 
+            "index": 14
+        }, 
+        "d9faa427-88ca-4fe9-82f2-ecaf527eb06f": {
+            "components": [
+                {
+                    "name": "transform", 
+                    "props": {
+                        "position": {
+                            "x": -10.793277740478516, 
+                            "y": 2.4536848068237305, 
+                            "z": 1.5762526988983154
+                        }, 
+                        "rotation": {
+                            "x": -0.999780537946805, 
+                            "y": -1.3068969349404056, 
+                            "z": -0.9836434207912894
+                        }, 
+                        "scale": {
+                            "x": 1, 
+                            "y": 1, 
+                            "z": 1
+                        }
+                    }
+                }
+            ], 
+            "parent": "d32b1c4e-d08e-4fb0-9107-4c88a281ee71", 
+            "index": 15
+        }, 
+        "99661cd3-764a-4577-888e-a580499877d2": {
+            "components": [
+                {
+                    "name": "transform", 
+                    "props": {
+                        "position": {
+                            "x": 0, 
+                            "y": 1.5499999523162842, 
+                            "z": -4.900000095367432
+                        }, 
+                        "rotation": {
+                            "x": -3.141592653589793, 
+                            "y": 2.6495566742380966e-38, 
+                            "z": -3.141592653589793
+                        }, 
+                        "scale": {
+                            "x": 1.5, 
+                            "y": 2.700000047683716, 
+                            "z": 2.5
+                        }
+                    }
+                }, 
+                {
+                    "name": "shadow", 
+                    "props": {
+                        "cast": true, 
+                        "receive": true
+                    }
+                }, 
+                {
+                    "name": "image", 
+                    "props": {
+                        "source": "https://xr-resources.yee.link/ey/s3.jpg", 
+                        "alphaMode": "Opaque", 
+                        "alphaCutoff": 0.5, 
+                        "projection": "Flat", 
+                        "side": 2
+                    }
+                }, 
+                {
+                    "name": "visible", 
+                    "props": { }
+                }
+            ], 
+            "parent": "d32b1c4e-d08e-4fb0-9107-4c88a281ee71", 
+            "index": 16, 
+            "name": "s3"
+        }, 
+        "b0f8c90e-daf7-4f93-a69a-6f8e80c17add": {
+            "components": [
+                {
+                    "name": "transform", 
+                    "props": {
+                        "position": {
+                            "x": 0.1359260380268097, 
+                            "y": 1.7910959720611572, 
+                            "z": -10.698521614074707
+                        }, 
+                        "rotation": {
+                            "x": -2.9757154806639905, 
+                            "y": 0.012530154830103377, 
+                            "z": 3.139494973307878
+                        }, 
+                        "scale": {
+                            "x": 0.9999998807907104, 
+                            "y": 1, 
+                            "z": 0.9999998807907104
+                        }
+                    }
+                }
+            ], 
+            "parent": "d32b1c4e-d08e-4fb0-9107-4c88a281ee71", 
+            "index": 17
+        }, 
+        "3c32c06b-8d68-4fc4-a154-3fbe141b11f0": {
+            "components": [
+                {
+                    "name": "transform", 
+                    "props": {
+                        "position": {
+                            "x": 4.900000095367432, 
+                            "y": 1.5499999523162842, 
+                            "z": 0
+                        }, 
+                        "rotation": {
+                            "x": 0, 
+                            "y": 1.5704263768429216, 
+                            "z": 0
+                        }, 
+                        "scale": {
+                            "x": 1.5, 
+                            "y": 2.700000047683716, 
+                            "z": 2
+                        }
+                    }
+                }, 
+                {
+                    "name": "visible", 
+                    "props": { }
+                }, 
+                {
+                    "name": "shadow", 
+                    "props": {
+                        "cast": true, 
+                        "receive": true
+                    }
+                }, 
+                {
+                    "name": "image", 
+                    "props": {
+                        "source": "https://xr-resources.yee.link/ey/s4.jpg", 
+                        "alphaMode": "Opaque", 
+                        "alphaCutoff": 0.5, 
+                        "projection": "Flat", 
+                        "side": 2
+                    }
+                }
+            ], 
+            "parent": "d32b1c4e-d08e-4fb0-9107-4c88a281ee71", 
+            "index": 18, 
+            "name": "s4"
+        }, 
+        "dcabf7e9-2d3c-4e49-9b43-7a4d8c746d42": {
+            "components": [
+                {
+                    "name": "transform", 
+                    "props": {
+                        "position": {
+                            "x": 10.833296775817871, 
+                            "y": 2.7548632621765137, 
+                            "z": 0.22410325706005096
+                        }, 
+                        "rotation": {
+                            "x": -1.5023564848323299, 
+                            "y": 1.3212329116877126, 
+                            "z": 1.5001756137911357
+                        }, 
+                        "scale": {
+                            "x": 1, 
+                            "y": 1, 
+                            "z": 1
+                        }
+                    }
+                }
+            ], 
+            "parent": "d32b1c4e-d08e-4fb0-9107-4c88a281ee71", 
+            "index": 19
+        }, 
+        "6b8f6a78-f5b6-4f12-a4a0-044998193697": {
+            "components": [
+                {
+                    "name": "transform", 
+                    "props": {
+                        "position": {
+                            "x": -7.75, 
+                            "y": 1.4999998807907104, 
+                            "z": -15.100000381469727
+                        }, 
+                        "rotation": {
+                            "x": 0, 
+                            "y": 0.4886922045077579, 
+                            "z": 0
+                        }, 
+                        "scale": {
+                            "x": 2.5999999046325684, 
+                            "y": 1.399999976158142, 
+                            "z": 2.559999942779541
+                        }
+                    }
+                }, 
+                {
+                    "name": "visible", 
+                    "props": { }
+                }, 
+                {
+                    "name": "shadow", 
+                    "props": {
+                        "cast": true, 
+                        "receive": true
+                    }
+                }, 
+                {
+                    "name": "image", 
+                    "props": {
+                        "source": "https://xr-resources.yee.link/ey/h1.jpg", 
+                        "alphaMode": "Opaque", 
+                        "alphaCutoff": 0.5, 
+                        "projection": "Flat", 
+                        "side": 2
+                    }
+                }
+            ], 
+            "parent": "d32b1c4e-d08e-4fb0-9107-4c88a281ee71", 
+            "index": 20, 
+            "name": "h1"
+        }, 
+        "911bd568-01ab-2h8b-b94f-9a93727ad514": {
+            "components": [
+                {
+                    "name": "transform", 
+                    "props": {
+                        "position": {
+                            "x": 3.000000238418579, 
+                            "y": -3.814697322468419e-7, 
+                            "z": 3.4000003337860107
+                        }, 
+                        "rotation": {
+                            "x": 0, 
+                            "y": 1.2217306722426526, 
+                            "z": 0
+                        }, 
+                        "scale": {
+                            "x": 2, 
+                            "y": 2, 
+                            "z": 2
+                        }
+                    }
+                }, 
+                {
+                    "name": "shadow", 
+                    "props": {
+                        "cast": true, 
+                        "receive": true
+                    }
+                }, 
+                {
+                    "name": "gltf-model", 
+                    "props": {
+                        "src": "__$project$__/default-project/assets/test-equippable.glb", 
+                        "materialOverrides": [ ], 
+                        "generateBVH": false, 
+                        "matrixAutoUpdate": true
+                    }
+                }, 
+                {
+                    "name": "envmap", 
+                    "props": {
+                        "type": "Skybox", 
+                        "envMapTextureType": "Cubemap", 
+                        "envMapSourceColor": 1193046, 
+                        "envMapSourceURL": "/hdr/cubemap/skyboxsun25deg/", 
+                        "envMapIntensity": 1, 
+                        "envMapBake": {
+                            "bakeType": "Baked", 
+                            "resolution": 2048, 
+                            "refreshMode": "OnAwake", 
+                            "envMapOrigin": "", 
+                            "boxProjection": true, 
+                            "bakePosition": {
+                                "x": 0, 
+                                "y": 0, 
+                                "z": 0
+                            }, 
+                            "bakePositionOffset": {
+                                "x": 0, 
+                                "y": 0, 
+                                "z": 0
+                            }, 
+                            "bakeScale": {
+                                "x": 1, 
+                                "y": 1, 
+                                "z": 1
+                            }
+                        }
+                    }
+                }, 
+                {
+                    "name": "loop-animation", 
+                    "props": {
+                        "activeClipIndex": -1, 
+                        "hasAvatarAnimations": false
+                    }
+                }, 
+                {
+                    "name": "e-commerce-product", 
+                    "props": {
+                        "url": "https://xr-resources.yee.link/BGYvideo/video1.mp4", 
+                        "media": [
+                            "https://cdn.shopify.com/s/files/1/0650/9350/1157/products/6473553_rd.jpg?v=1657839633", 
+                            "https://theoverlay-dev-static-resources.s3.amazonaws.com/assets/ecommerce/oculus_quest_2.glb"
+                        ], 
+                        "productId": "这是作品ID", 
+                        "variantId": "gid://shopify/ProductVariant/43157569634533", 
+                        "description": "Congratulations on your promotion and achieving this important milestone of your career!", 
+                        "title": "", 
+                        "type": "ddd", 
+                        "mediaUrl": "https://xr-resources.yee.link/ey/ey.screen.mp4", 
+                        "price": "", 
+                        "currencyCode": "", 
+                        "customFiled": "???"
+                    }
+                }
+            ], 
+            "parent": "d32b1c4e-d08e-4fb0-9107-4c88a281ee71", 
+            "index": 21, 
+            "name": "cs3"
+        }, 
+        "911bd568-01ab-2h8b-b94f-9a93727ad51344": {
+            "components": [
+                {
+                    "name": "transform", 
+                    "props": {
+                        "position": {
+                            "x": 3.5, 
+                            "y": 4.7683716530855236e-8, 
+                            "z": -3.1999998092651367
+                        }, 
+                        "rotation": {
+                            "x": 0, 
+                            "y": 1.2217306722426526, 
+                            "z": 0
+                        }, 
+                        "scale": {
+                            "x": 2, 
+                            "y": 2, 
+                            "z": 2
+                        }
+                    }
+                }, 
+                {
+                    "name": "shadow", 
+                    "props": {
+                        "cast": true, 
+                        "receive": true
+                    }
+                }, 
+                {
+                    "name": "gltf-model", 
+                    "props": {
+                        "src": "__$project$__/default-project/assets/test-equippable.glb", 
+                        "materialOverrides": [ ], 
+                        "generateBVH": false, 
+                        "matrixAutoUpdate": true
+                    }
+                }, 
+                {
+                    "name": "envmap", 
+                    "props": {
+                        "type": "Skybox", 
+                        "envMapTextureType": "Cubemap", 
+                        "envMapSourceColor": 1193046, 
+                        "envMapSourceURL": "/hdr/cubemap/skyboxsun25deg/", 
+                        "envMapIntensity": 1, 
+                        "envMapBake": {
+                            "bakeType": "Baked", 
+                            "resolution": 2048, 
+                            "refreshMode": "OnAwake", 
+                            "envMapOrigin": "", 
+                            "boxProjection": true, 
+                            "bakePosition": {
+                                "x": 0, 
+                                "y": 0, 
+                                "z": 0
+                            }, 
+                            "bakePositionOffset": {
+                                "x": 0, 
+                                "y": 0, 
+                                "z": 0
+                            }, 
+                            "bakeScale": {
+                                "x": 1, 
+                                "y": 1, 
+                                "z": 1
+                            }
+                        }
+                    }
+                }, 
+                {
+                    "name": "loop-animation", 
+                    "props": {
+                        "activeClipIndex": -1, 
+                        "hasAvatarAnimations": false
+                    }
+                }, 
+                {
+                    "name": "e-commerce-product", 
+                    "props": {
+                        "url": "https://xr-resources.yee.link/BGYvideo/video1.mp4", 
+                        "media": [
+                            "https://cdn.shopify.com/s/files/1/0650/9350/1157/products/6473553_rd.jpg?v=1657839633", 
+                            "https://theoverlay-dev-static-resources.s3.amazonaws.com/assets/ecommerce/oculus_quest_2.glb"
+                        ], 
+                        "productId": "这是作品ID", 
+                        "variantId": "gid://shopify/ProductVariant/43157569634533", 
+                        "description": "恭喜您的晋升! 这是您安永职业生涯的一个重要成就与里程碑，我们希望您为此感到喜悦与骄傲。", 
+                        "title": "", 
+                        "type": "ddd", 
+                        "mediaUrl": "https://xr-resources.yee.link/ey/ey.screen.mp4", 
+                        "price": "", 
+                        "currencyCode": "", 
+                        "customFiled": "???"
+                    }
+                }
+            ], 
+            "parent": "d32b1c4e-d08e-4fb0-9107-4c88a281ee71", 
+            "index": 22, 
+            "name": "cs2"
+        }, 
+        "911bd568-01ab-2h67538b-b94f-9a93727ad514": {
+            "components": [
+                {
+                    "name": "transform", 
+                    "props": {
+                        "position": {
+                            "x": -3.1999998092651367, 
+                            "y": 4.7683716530855236e-8, 
+                            "z": 3.200000047683716
+                        }, 
+                        "rotation": {
+                            "x": 0, 
+                            "y": 1.2217306722426526, 
+                            "z": 0
+                        }, 
+                        "scale": {
+                            "x": 2, 
+                            "y": 2, 
+                            "z": 2
+                        }
+                    }
+                }, 
+                {
+                    "name": "shadow", 
+                    "props": {
+                        "cast": true, 
+                        "receive": true
+                    }
+                }, 
+                {
+                    "name": "gltf-model", 
+                    "props": {
+                        "src": "__$project$__/default-project/assets/test-equippable.glb", 
+                        "materialOverrides": [ ], 
+                        "generateBVH": false, 
+                        "matrixAutoUpdate": true
+                    }
+                }, 
+                {
+                    "name": "envmap", 
+                    "props": {
+                        "type": "Skybox", 
+                        "envMapTextureType": "Cubemap", 
+                        "envMapSourceColor": 1193046, 
+                        "envMapSourceURL": "/hdr/cubemap/skyboxsun25deg/", 
+                        "envMapIntensity": 1, 
+                        "envMapBake": {
+                            "bakeType": "Baked", 
+                            "resolution": 2048, 
+                            "refreshMode": "OnAwake", 
+                            "envMapOrigin": "", 
+                            "boxProjection": true, 
+                            "bakePosition": {
+                                "x": 0, 
+                                "y": 0, 
+                                "z": 0
+                            }, 
+                            "bakePositionOffset": {
+                                "x": 0, 
+                                "y": 0, 
+                                "z": 0
+                            }, 
+                            "bakeScale": {
+                                "x": 1, 
+                                "y": 1, 
+                                "z": 1
+                            }
+                        }
+                    }
+                }, 
+                {
+                    "name": "loop-animation", 
+                    "props": {
+                        "activeClipIndex": -1, 
+                        "hasAvatarAnimations": false
+                    }
+                }, 
+                {
+                    "name": "e-commerce-product", 
+                    "props": {
+                        "url": "https://xr-resources.yee.link/BGYvideo/video1.mp4", 
+                        "media": [
+                            "https://cdn.shopify.com/s/files/1/0650/9350/1157/products/6473553_rd.jpg?v=1657839633", 
+                            "https://theoverlay-dev-static-resources.s3.amazonaws.com/assets/ecommerce/oculus_quest_2.glb"
+                        ], 
+                        "productId": "这是作品ID", 
+                        "variantId": "gid://shopify/ProductVariant/43157569634533", 
+                        "description": "We hope this milestone will open up more future opportunities for you, bring out the best in you, inspire those around you at EY and beyond.", 
+                        "title": "", 
+                        "type": "ddd", 
+                        "mediaUrl": "https://xr-resources.yee.link/ey/ey.screen.mp4", 
+                        "price": "", 
+                        "currencyCode": "", 
+                        "customFiled": "???"
+                    }
+                }
+            ], 
+            "parent": "d32b1c4e-d08e-4fb0-9107-4c88a281ee71", 
+            "index": 23, 
+            "name": "cs1"
+        }, 
+        "911bd568-01ab-2h8b-b94f-9a91233727ad514": {
+            "components": [
+                {
+                    "name": "transform", 
+                    "props": {
+                        "position": {
+                            "x": -3.0999999046325684, 
+                            "y": 4.7683716530855236e-8, 
+                            "z": -3.499999761581421
+                        }, 
+                        "rotation": {
+                            "x": 0, 
+                            "y": 1.2217306722426526, 
+                            "z": 0
+                        }, 
+                        "scale": {
+                            "x": 2, 
+                            "y": 2, 
+                            "z": 2
+                        }
+                    }
+                }, 
+                {
+                    "name": "shadow", 
+                    "props": {
+                        "cast": true, 
+                        "receive": true
+                    }
+                }, 
+                {
+                    "name": "gltf-model", 
+                    "props": {
+                        "src": "__$project$__/default-project/assets/test-equippable.glb", 
+                        "materialOverrides": [ ], 
+                        "generateBVH": false, 
+                        "matrixAutoUpdate": true
+                    }
+                }, 
+                {
+                    "name": "envmap", 
+                    "props": {
+                        "type": "Skybox", 
+                        "envMapTextureType": "Cubemap", 
+                        "envMapSourceColor": 1193046, 
+                        "envMapSourceURL": "/hdr/cubemap/skyboxsun25deg/", 
+                        "envMapIntensity": 1, 
+                        "envMapBake": {
+                            "bakeType": "Baked", 
+                            "resolution": 2048, 
+                            "refreshMode": "OnAwake", 
+                            "envMapOrigin": "", 
+                            "boxProjection": true, 
+                            "bakePosition": {
+                                "x": 0, 
+                                "y": 0, 
+                                "z": 0
+                            }, 
+                            "bakePositionOffset": {
+                                "x": 0, 
+                                "y": 0, 
+                                "z": 0
+                            }, 
+                            "bakeScale": {
+                                "x": 1, 
+                                "y": 1, 
+                                "z": 1
+                            }
+                        }
+                    }
+                }, 
+                {
+                    "name": "loop-animation", 
+                    "props": {
+                        "activeClipIndex": -1, 
+                        "hasAvatarAnimations": false
+                    }
+                }, 
+                {
+                    "name": "e-commerce-product", 
+                    "props": {
+                        "url": "https://xr-resources.yee.link/BGYvideo/video1.mp4", 
+                        "media": [
+                            "https://cdn.shopify.com/s/files/1/0650/9350/1157/products/6473553_rd.jpg?v=1657839633", 
+                            "https://theoverlay-dev-static-resources.s3.amazonaws.com/assets/ecommerce/oculus_quest_2.glb"
+                        ], 
+                        "productId": "这是作品ID", 
+                        "variantId": "gid://shopify/ProductVariant/43157569634533", 
+                        "description": "我们相信此次里程碑会是开启您未来机会之门的钥匙，能够激发您成就更好的自己、他人、团队，以及更广泛的人群。", 
+                        "title": "", 
+                        "type": "ddd", 
+                        "mediaUrl": "https://xr-resources.yee.link/ey/ey.screen.mp4", 
+                        "price": "", 
+                        "currencyCode": "", 
+                        "customFiled": "???"
+                    }
+                }
+            ], 
+            "parent": "d32b1c4e-d08e-4fb0-9107-4c88a281ee71", 
+            "index": 24, 
+            "name": "cs"
+        }, 
+        "cdfa1d37-612e-4020-bd4e-1e0968d1d89d": {
+            "components": [
+                {
+                    "name": "transform", 
+                    "props": {
+                        "position": {
+                            "x": -4.431318759918213, 
+                            "y": 2.1693899631500244, 
+                            "z": -10.290566444396973
+                        }, 
+                        "rotation": {
+                            "x": -0.14119234752094073, 
+                            "y": 0.5876389472286339, 
+                            "z": 0.07863853203141886
+                        }, 
+                        "scale": {
+                            "x": 1, 
+                            "y": 1, 
+                            "z": 1
+                        }
+                    }
+                }
+            ], 
+            "parent": "d32b1c4e-d08e-4fb0-9107-4c88a281ee71", 
+            "index": 25
+        }, 
+        "ca7e565e-af3f-45d0-bda9-64100c20cac6": {
+            "components": [
+                {
+                    "name": "transform", 
+                    "props": {
+                        "position": {
+                            "x": -4.700000286102295, 
+                            "y": 1.4800000190734863, 
+                            "z": -16.399999618530273
+                        }, 
+                        "rotation": {
+                            "x": 0, 
+                            "y": 0.3141592651910825, 
+                            "z": 0
+                        }, 
+                        "scale": {
+                            "x": 2.5999999046325684, 
+                            "y": 1.350000023841858, 
+                            "z": 1
+                        }
+                    }
+                }, 
+                {
+                    "name": "visible", 
+                    "props": { }
+                }, 
+                {
+                    "name": "shadow", 
+                    "props": {
+                        "cast": true, 
+                        "receive": true
+                    }
+                }, 
+                {
+                    "name": "image", 
+                    "props": {
+                        "source": "https://xr-resources.yee.link/ey/h2.jpg", 
+                        "alphaMode": "Opaque", 
+                        "alphaCutoff": 0.5, 
+                        "projection": "Flat", 
+                        "side": 2
+                    }
+                }
+            ], 
+            "parent": "d32b1c4e-d08e-4fb0-9107-4c88a281ee71", 
+            "index": 26, 
+            "name": "h2"
+        }, 
+        "7d12d1a9-e8ef-410a-b9a6-8c9ead411b42": {
+            "components": [
+                {
+                    "name": "transform", 
+                    "props": {
+                        "position": {
+                            "x": -3.4835917949676514, 
+                            "y": 1.947283148765564, 
+                            "z": -11.218645095825195
+                        }, 
+                        "rotation": {
+                            "x": -0.09209257699370943, 
+                            "y": 0.22876268143321177, 
+                            "z": 0.020940254448931668
+                        }, 
+                        "scale": {
+                            "x": 1, 
+                            "y": 1, 
+                            "z": 1
+                        }
+                    }
+                }
+            ], 
+            "parent": "d32b1c4e-d08e-4fb0-9107-4c88a281ee71", 
+            "index": 27
+        }, 
+        "fb166029-baf7-420f-a7a6-52150e9d149d": {
+            "components": [
+                {
+                    "name": "transform", 
+                    "props": {
+                        "position": {
+                            "x": -1.399999976158142, 
+                            "y": 1.4500000476837158, 
+                            "z": -17
+                        }, 
+                        "rotation": {
+                            "x": 0, 
+                            "y": 0.06981316869999792, 
+                            "z": 0
+                        }, 
+                        "scale": {
+                            "x": 2.5999999046325684, 
+                            "y": 1.399999976158142, 
+                            "z": 3
+                        }
+                    }
+                }, 
+                {
+                    "name": "shadow", 
+                    "props": {
+                        "cast": true, 
+                        "receive": true
+                    }
+                }, 
+                {
+                    "name": "image", 
+                    "props": {
+                        "source": "https://xr-resources.yee.link/ey/h3.jpg", 
+                        "alphaMode": "Opaque", 
+                        "alphaCutoff": 0.5, 
+                        "projection": "Flat", 
+                        "side": 2
+                    }
+                }, 
+                {
+                    "name": "visible", 
+                    "props": { }
+                }
+            ], 
+            "parent": "d32b1c4e-d08e-4fb0-9107-4c88a281ee71", 
+            "index": 28, 
+            "name": "h3"
+        }, 
+        "b1cb2721-f593-4eff-bdc2-4b81cb0a8e1b": {
+            "components": [
+                {
+                    "name": "transform", 
+                    "props": {
+                        "position": {
+                            "x": -0.7308357357978821, 
+                            "y": 1.8287217617034912, 
+                            "z": -10.719095230102539
+                        }, 
+                        "rotation": {
+                            "x": -0.0576111630589551, 
+                            "y": 0.11017954728864643, 
+                            "z": 0.006341669344698489
+                        }, 
+                        "scale": {
+                            "x": 1, 
+                            "y": 1, 
+                            "z": 1
+                        }
+                    }
+                }
+            ], 
+            "parent": "d32b1c4e-d08e-4fb0-9107-4c88a281ee71", 
+            "index": 29
+        }, 
+        "3bfcd738-381d-44ea-b0be-c7ea9cfba9ce": {
+            "components": [
+                {
+                    "name": "transform", 
+                    "props": {
+                        "position": {
+                            "x": 1.899999976158142, 
+                            "y": 1.4800000190734863, 
+                            "z": -16.899999618530273
+                        }, 
+                        "rotation": {
+                            "x": 0, 
+                            "y": -0.10471975046733745, 
+                            "z": 0
+                        }, 
+                        "scale": {
+                            "x": 2.559999942779541, 
+                            "y": 1.4199999570846558, 
+                            "z": 2.559999942779541
+                        }
+                    }
+                }, 
+                {
+                    "name": "visible", 
+                    "props": { }
+                }, 
+                {
+                    "name": "shadow", 
+                    "props": {
+                        "cast": true, 
+                        "receive": true
+                    }
+                }, 
+                {
+                    "name": "image", 
+                    "props": {
+                        "source": "https://xr-resources.yee.link/ey/h4.jpg", 
+                        "alphaMode": "Opaque", 
+                        "alphaCutoff": 0.5, 
+                        "projection": "Flat", 
+                        "side": 2
+                    }
+                }
+            ], 
+            "parent": "d32b1c4e-d08e-4fb0-9107-4c88a281ee71", 
+            "index": 30, 
+            "name": "h4"
+        }, 
+        "4021e7e9-b67e-4c6c-9678-0acea6e4f7f1": {
+            "components": [
+                {
+                    "name": "transform", 
+                    "props": {
+                        "position": {
+                            "x": 1.372143268585205, 
+                            "y": 1.9903188943862915, 
+                            "z": -10.629475593566895
+                        }, 
+                        "rotation": {
+                            "x": -0.08308044152434099, 
+                            "y": -0.08758705793739786, 
+                            "z": -0.00728410960133145
+                        }, 
+                        "scale": {
+                            "x": 1, 
+                            "y": 1, 
+                            "z": 1
+                        }
+                    }
+                }
+            ], 
+            "parent": "d32b1c4e-d08e-4fb0-9107-4c88a281ee71", 
+            "index": 31
+        }, 
+        "8e324055-056f-46a2-b15d-514f403c10cd": {
+            "components": [
+                {
+                    "name": "transform", 
+                    "props": {
+                        "position": {
+                            "x": 5.099999904632568, 
+                            "y": 1.4500000476837158, 
+                            "z": -16.200000762939453
+                        }, 
+                        "rotation": {
+                            "x": 0, 
+                            "y": -0.3490658436992209, 
+                            "z": 0
+                        }, 
+                        "scale": {
+                            "x": 2.700000047683716, 
+                            "y": 1.399999976158142, 
+                            "z": 2.5
+                        }
+                    }
+                }, 
+                {
+                    "name": "visible", 
+                    "props": { }
+                }, 
+                {
+                    "name": "shadow", 
+                    "props": {
+                        "cast": true, 
+                        "receive": true
+                    }
+                }, 
+                {
+                    "name": "image", 
+                    "props": {
+                        "source": "https://xr-resources.yee.link/ey/h5.jpg", 
+                        "alphaMode": "Opaque", 
+                        "alphaCutoff": 0.5, 
+                        "projection": "Flat", 
+                        "side": 2
+                    }
+                }
+            ], 
+            "parent": "d32b1c4e-d08e-4fb0-9107-4c88a281ee71", 
+            "index": 32, 
+            "name": "h5"
+        }, 
+        "1a170653-40bf-4873-bbae-6b1dee0b7c99": {
+            "components": [
+                {
+                    "name": "transform", 
+                    "props": {
+                        "position": {
+                            "x": 3.088460683822632, 
+                            "y": 2.4548685550689697, 
+                            "z": -10.31054401397705
+                        }, 
+                        "rotation": {
+                            "x": -0.16560639638226024, 
+                            "y": -0.333077462838158, 
+                            "z": -0.05459167340304556
+                        }, 
+                        "scale": {
+                            "x": 1, 
+                            "y": 1, 
+                            "z": 1
+                        }
+                    }
+                }
+            ], 
+            "parent": "d32b1c4e-d08e-4fb0-9107-4c88a281ee71", 
+            "index": 33
+        }, 
+        "c6e3f6fc-6dae-4474-b5b7-e51263d94fd4": {
+            "components": [
+                {
+                    "name": "transform", 
+                    "props": {
+                        "position": {
+                            "x": 8.199999809265137, 
+                            "y": 1.4600000381469727, 
+                            "z": -14.899999618530273
+                        }, 
+                        "rotation": {
+                            "x": 0, 
+                            "y": -0.4886922045077579, 
+                            "z": 0
+                        }, 
+                        "scale": {
+                            "x": 2.5999999046325684, 
+                            "y": 1.399999976158142, 
+                            "z": 2.5999999046325684
+                        }
+                    }
+                }, 
+                {
+                    "name": "visible", 
+                    "props": { }
+                }, 
+                {
+                    "name": "shadow", 
+                    "props": {
+                        "cast": true, 
+                        "receive": true
+                    }
+                }, 
+                {
+                    "name": "image", 
+                    "props": {
+                        "source": "https://xr-resources.yee.link/ey/h6.jpg", 
+                        "alphaMode": "Opaque", 
+                        "alphaCutoff": 0.5, 
+                        "projection": "Flat", 
+                        "side": 2
+                    }
+                }
+            ], 
+            "parent": "d32b1c4e-d08e-4fb0-9107-4c88a281ee71", 
+            "index": 34, 
+            "name": "h6"
+        }, 
+        "a225acb2-4b6e-4bf7-aac4-0b50d34f9f4d": {
+            "components": [
+                {
+                    "name": "transform", 
+                    "props": {
+                        "position": {
+                            "x": 5.589637279510498, 
+                            "y": 2.316816568374634, 
+                            "z": -9.715980529785156
+                        }, 
+                        "rotation": {
+                            "x": -0.1618200497427167, 
+                            "y": -0.45701042183013, 
+                            "z": -0.0719115538788442
+                        }, 
+                        "scale": {
+                            "x": 1, 
+                            "y": 1, 
+                            "z": 1
+                        }
+                    }
+                }
+            ], 
+            "parent": "d32b1c4e-d08e-4fb0-9107-4c88a281ee71", 
+            "index": 35
+        }, 
+        "486d1056-d182-4ecd-9835-c1378567cf38": {
+            "components": [
+                {
+                    "name": "transform", 
+                    "props": {
+                        "position": {
+                            "x": 16.899999618530273, 
+                            "y": 1.4600000381469727, 
+                            "z": -1.6399999856948853
+                        }, 
+                        "rotation": {
+                            "x": 0, 
+                            "y": -1.4311703306689516, 
+                            "z": 0
+                        }, 
+                        "scale": {
+                            "x": 2.6500000953674316, 
+                            "y": 1.399999976158142, 
+                            "z": 1.399999976158142
+                        }
+                    }
+                }, 
+                {
+                    "name": "visible", 
+                    "props": { }
+                }, 
+                {
+                    "name": "shadow", 
+                    "props": {
+                        "cast": true, 
+                        "receive": true
+                    }
+                }, 
+                {
+                    "name": "image", 
+                    "props": {
+                        "source": "https://xr-resources.yee.link/ey/h7.jpg", 
+                        "alphaMode": "Opaque", 
+                        "alphaCutoff": 0.5, 
+                        "projection": "Flat", 
+                        "side": 2
+                    }
+                }
+            ], 
+            "parent": "d32b1c4e-d08e-4fb0-9107-4c88a281ee71", 
+            "index": 36, 
+            "name": "h7"
+        }, 
+        "8ce2ee9d-aecb-4374-ac51-017fac4a175d": {
+            "components": [
+                {
+                    "name": "transform", 
+                    "props": {
+                        "position": {
+                            "x": 11.948867797851562, 
+                            "y": 1.924089789390564, 
+                            "z": -0.958662211894989
+                        }, 
+                        "rotation": {
+                            "x": -0.5694842093873193, 
+                            "y": -1.4029311069238435, 
+                            "z": -0.5630752304802469
+                        }, 
+                        "scale": {
+                            "x": 0.9999999403953552, 
+                            "y": 1, 
+                            "z": 0.9999999403953552
+                        }
+                    }
+                }
+            ], 
+            "parent": "d32b1c4e-d08e-4fb0-9107-4c88a281ee71", 
+            "index": 37
+        }, 
+        "8d667837-02f0-449b-a406-089e8bfd00c3": {
+            "components": [
+                {
+                    "name": "transform", 
+                    "props": {
+                        "position": {
+                            "x": 16.81900978088379, 
+                            "y": 1.4500000476837158, 
+                            "z": 1.6999999284744263
+                        }, 
+                        "rotation": {
+                            "x": -3.141592653589793, 
+                            "y": -1.5358910003666293, 
+                            "z": -3.141592653589793
+                        }, 
+                        "scale": {
+                            "x": 2.5999999046325684, 
+                            "y": 1.399999976158142, 
+                            "z": 2.220446049250313e-16
+                        }
+                    }
+                }, 
+                {
+                    "name": "visible", 
+                    "props": { }
+                }, 
+                {
+                    "name": "shadow", 
+                    "props": {
+                        "cast": true, 
+                        "receive": true
+                    }
+                }, 
+                {
+                    "name": "image", 
+                    "props": {
+                        "source": "https://xr-resources.yee.link/ey/h8.jpg", 
+                        "alphaMode": "Opaque", 
+                        "alphaCutoff": 0.5, 
+                        "projection": "Flat", 
+                        "side": 2
+                    }
+                }
+            ], 
+            "parent": "d32b1c4e-d08e-4fb0-9107-4c88a281ee71", 
+            "index": 38, 
+            "name": "h8"
+        }, 
+        "b07b5dd8-95ef-4341-a654-ecaace07c90c": {
+            "components": [
+                {
+                    "name": "transform", 
+                    "props": {
+                        "position": {
+                            "x": 10.676836967468262, 
+                            "y": 1.3779782056808472, 
+                            "z": 2.0128047466278076
+                        }, 
+                        "rotation": {
+                            "x": 0.2377557507033586, 
+                            "y": -1.5125102763574496, 
+                            "z": 0.23736700814588302
+                        }, 
+                        "scale": {
+                            "x": 1, 
+                            "y": 1, 
+                            "z": 1
+                        }
+                    }
+                }
+            ], 
+            "parent": "d32b1c4e-d08e-4fb0-9107-4c88a281ee71", 
+            "index": 39
+        }, 
+        "2ba4a8d2-e785-4dc7-9ff2-4e65382adebe": {
+            "components": [
+                {
+                    "name": "transform", 
+                    "props": {
+                        "position": {
+                            "x": 16.26095199584961, 
+                            "y": 1.5, 
+                            "z": 4.900000095367432
+                        }, 
+                        "rotation": {
+                            "x": 3.141592653589793, 
+                            "y": -1.3089967593776906, 
+                            "z": 3.141592653589793
+                        }, 
+                        "scale": {
+                            "x": 2.5999999046325684, 
+                            "y": 1.4200000762939453, 
+                            "z": 0.9999855756759644
+                        }
+                    }
+                }, 
+                {
+                    "name": "visible", 
+                    "props": { }
+                }, 
+                {
+                    "name": "shadow", 
+                    "props": {
+                        "cast": true, 
+                        "receive": true
+                    }
+                }, 
+                {
+                    "name": "image", 
+                    "props": {
+                        "source": "https://xr-resources.yee.link/ey/h9.jpg", 
+                        "alphaMode": "Opaque", 
+                        "alphaCutoff": 0.5, 
+                        "projection": "Flat", 
+                        "side": 2
+                    }
+                }
+            ], 
+            "parent": "d32b1c4e-d08e-4fb0-9107-4c88a281ee71", 
+            "index": 40, 
+            "name": "h9"
+        }, 
+        "a2565ec3-aa82-49cf-b2d6-3b55a5a42bc9": {
+            "components": [
+                {
+                    "name": "transform", 
+                    "props": {
+                        "position": {
+                            "x": 10.17532730102539, 
+                            "y": 1.9025908708572388, 
+                            "z": 3.533505439758301
+                        }, 
+                        "rotation": {
+                            "x": -2.834714602510096, 
+                            "y": -1.3408285348373663, 
+                            "z": -2.8423138843407196
+                        }, 
+                        "scale": {
+                            "x": 0.9999999403953552, 
+                            "y": 1, 
+                            "z": 0.9999999403953552
+                        }
+                    }
+                }
+            ], 
+            "parent": "d32b1c4e-d08e-4fb0-9107-4c88a281ee71", 
+            "index": 41
+        }, 
+        "1ac174a7-e0e9-41dd-a9e1-f1af8c4539b4": {
+            "components": [
+                {
+                    "name": "transform", 
+                    "props": {
+                        "position": {
+                            "x": 14.948808670043945, 
+                            "y": 1.4800000190734863, 
+                            "z": 8.005399703979492
+                        }, 
+                        "rotation": {
+                            "x": -3.141592653589793, 
+                            "y": -1.0821041357666483, 
+                            "z": -3.141592653589793
+                        }, 
+                        "scale": {
+                            "x": 2.5999999046325684, 
+                            "y": 1.399999976158142, 
+                            "z": 1.500030279159546
+                        }
+                    }
+                }, 
+                {
+                    "name": "visible", 
+                    "props": { }
+                }, 
+                {
+                    "name": "shadow", 
+                    "props": {
+                        "cast": true, 
+                        "receive": true
+                    }
+                }, 
+                {
+                    "name": "image", 
+                    "props": {
+                        "source": "https://xr-resources.yee.link/ey/h10.jpg", 
+                        "alphaMode": "Opaque", 
+                        "alphaCutoff": 0.5, 
+                        "projection": "Flat", 
+                        "side": 2
+                    }
+                }
+            ], 
+            "parent": "d32b1c4e-d08e-4fb0-9107-4c88a281ee71", 
+            "index": 42, 
+            "name": "h10"
+        }, 
+        "e659f247-60fd-479b-a0bf-396ce5c65e85": {
+            "components": [
+                {
+                    "name": "transform", 
+                    "props": {
+                        "position": {
+                            "x": 9.025175094604492, 
+                            "y": 1.9025837182998657, 
+                            "z": 6.034503936767578
+                        }, 
+                        "rotation": {
+                            "x": -2.923182042414552, 
+                            "y": -1.2474062111326873, 
+                            "z": -2.934173351936345
+                        }, 
+                        "scale": {
+                            "x": 1, 
+                            "y": 1, 
+                            "z": 1
+                        }
+                    }
+                }
+            ], 
+            "parent": "d32b1c4e-d08e-4fb0-9107-4c88a281ee71", 
+            "index": 43
+        }, 
+        "95f7757b-53cc-4e49-92c1-bebbe7b72301": {
+            "components": [
+                {
+                    "name": "transform", 
+                    "props": {
+                        "position": {
+                            "x": 13.10629653930664, 
+                            "y": 1.5, 
+                            "z": 10.699999809265137
+                        }, 
+                        "rotation": {
+                            "x": -3.141592653589793, 
+                            "y": -0.8726644356920021, 
+                            "z": -3.141592653589793
+                        }, 
+                        "scale": {
+                            "x": 2.6500000953674316, 
+                            "y": 1.399999976158142, 
+                            "z": 2.559999942779541
+                        }
+                    }
+                }, 
+                {
+                    "name": "visible", 
+                    "props": { }
+                }, 
+                {
+                    "name": "shadow", 
+                    "props": {
+                        "cast": true, 
+                        "receive": true
+                    }
+                }, 
+                {
+                    "name": "image", 
+                    "props": {
+                        "source": "https://xr-resources.yee.link/ey/h11.jpg", 
+                        "alphaMode": "Opaque", 
+                        "alphaCutoff": 0.5, 
+                        "projection": "Flat", 
+                        "side": 2
+                    }
+                }
+            ], 
+            "parent": "d32b1c4e-d08e-4fb0-9107-4c88a281ee71", 
+            "index": 44, 
+            "name": "h11"
+        }, 
+        "e016aa30-235d-4965-8588-0c37f4a44b28": {
+            "components": [
+                {
+                    "name": "transform", 
+                    "props": {
+                        "position": {
+                            "x": 7.692514419555664, 
+                            "y": 2.2268152236938477, 
+                            "z": 7.696871280670166
+                        }, 
+                        "rotation": {
+                            "x": -2.897817670618267, 
+                            "y": -1.0509768926056546, 
+                            "z": -2.928987412990168
+                        }, 
+                        "scale": {
+                            "x": 1, 
+                            "y": 1, 
+                            "z": 1
+                        }
+                    }
+                }
+            ], 
+            "parent": "d32b1c4e-d08e-4fb0-9107-4c88a281ee71", 
+            "index": 45
+        }, 
+        "2993ff60-03f3-4c8b-a33c-36d9d1bbd9bb": {
+            "components": [
+                {
+                    "name": "transform", 
+                    "props": {
+                        "position": {
+                            "x": 10.788771629333496, 
+                            "y": 1.4700000286102295, 
+                            "z": 13
+                        }, 
+                        "rotation": {
+                            "x": -3.141592653589793, 
+                            "y": -0.6981314838840472, 
+                            "z": -3.141592653589793
+                        }, 
+                        "scale": {
+                            "x": 2.5999999046325684, 
+                            "y": 1.399999976158142, 
+                            "z": 2.5999999046325684
+                        }
+                    }
+                }, 
+                {
+                    "name": "visible", 
+                    "props": { }
+                }, 
+                {
+                    "name": "shadow", 
+                    "props": {
+                        "cast": true, 
+                        "receive": true
+                    }
+                }, 
+                {
+                    "name": "image", 
+                    "props": {
+                        "source": "https://xr-resources.yee.link/ey/h12.jpg", 
+                        "alphaMode": "Opaque", 
+                        "alphaCutoff": 0.5, 
+                        "projection": "Flat", 
+                        "side": 2
+                    }
+                }
+            ], 
+            "parent": "d32b1c4e-d08e-4fb0-9107-4c88a281ee71", 
+            "index": 46, 
+            "name": "h12"
+        }, 
+        "df2b358e-b258-4351-ac6d-f15e5f6d68a0": {
+            "components": [
+                {
+                    "name": "transform", 
+                    "props": {
+                        "position": {
+                            "x": 6.4906415939331055, 
+                            "y": 2.034151554107666, 
+                            "z": 8.546523094177246
+                        }, 
+                        "rotation": {
+                            "x": -3.0171519695602242, 
+                            "y": -0.7646673241910278, 
+                            "z": -3.0552107212926574
+                        }, 
+                        "scale": {
+                            "x": 0.9999999403953552, 
+                            "y": 1, 
+                            "z": 0.9999999403953552
+                        }
+                    }
+                }
+            ], 
+            "parent": "d32b1c4e-d08e-4fb0-9107-4c88a281ee71", 
+            "index": 47
+        }, 
+        "d75bb54e-b62e-497c-810f-7ed3b2ce24f6": {
+            "components": [
+                {
+                    "name": "transform", 
+                    "props": {
+                        "position": {
+                            "x": 7.540194988250732, 
+                            "y": 1.4600000381469727, 
+                            "z": 15.199999809265137
+                        }, 
+                        "rotation": {
+                            "x": 0, 
+                            "y": 0.43633232557207496, 
+                            "z": 0
+                        }, 
+                        "scale": {
+                            "x": 2.5999999046325684, 
+                            "y": 1.399999976158142, 
+                            "z": 2.5999999046325684
+                        }
+                    }
+                }, 
+                {
+                    "name": "visible", 
+                    "props": { }
+                }, 
+                {
+                    "name": "shadow", 
+                    "props": {
+                        "cast": true, 
+                        "receive": true
+                    }
+                }, 
+                {
+                    "name": "image", 
+                    "props": {
+                        "source": "https://xr-resources.yee.link/ey/h13.jpg", 
+                        "alphaMode": "Opaque", 
+                        "alphaCutoff": 0.5, 
+                        "projection": "Flat", 
+                        "side": 2
+                    }
+                }
+            ], 
+            "parent": "d32b1c4e-d08e-4fb0-9107-4c88a281ee71", 
+            "index": 48, 
+            "name": "h13"
+        }, 
+        "9f58d334-eabf-4b27-9077-90fbca292839": {
+            "components": [
+                {
+                    "name": "transform", 
+                    "props": {
+                        "position": {
+                            "x": 4.860653877258301, 
+                            "y": 1.9025834798812866, 
+                            "z": 9.527344703674316
+                        }, 
+                        "rotation": {
+                            "x": -3.065577544550151, 
+                            "y": -0.43540552156826573, 
+                            "z": -3.109480275278272
+                        }, 
+                        "scale": {
+                            "x": 0.9999999403953552, 
+                            "y": 1, 
+                            "z": 0.9999999403953552
+                        }
+                    }
+                }
+            ], 
+            "parent": "d32b1c4e-d08e-4fb0-9107-4c88a281ee71", 
+            "index": 49
+        }, 
+        "1c6137b5-dbd3-4a1e-8179-5a6bbc08912b": {
+            "components": [
+                {
+                    "name": "transform", 
+                    "props": {
+                        "position": {
+                            "x": -15.200000762939453, 
+                            "y": 1.3000000715255737, 
+                            "z": 4.200000286102295
+                        }, 
+                        "rotation": {
+                            "x": -3.141592653589793, 
+                            "y": 1.2915436533518223, 
+                            "z": -3.141592653589793
+                        }, 
+                        "scale": {
+                            "x": 10, 
+                            "y": 1.399999976158142, 
+                            "z": 2.220446049250313e-16
+                        }
+                    }
+                }, 
+                {
+                    "name": "shadow", 
+                    "props": {
+                        "cast": true, 
+                        "receive": true
+                    }
+                }, 
+                {
+                    "name": "image", 
+                    "props": {
+                        "source": "https://xr-resources.yee.link/ey/myq.jpg", 
+                        "alphaMode": "Opaque", 
+                        "alphaCutoff": 0.5, 
+                        "projection": "Flat", 
+                        "side": 2
+                    }
+                }
+            ], 
+            "parent": "d32b1c4e-d08e-4fb0-9107-4c88a281ee71", 
+            "index": 50, 
+            "name": "ryq"
+        }, 
+        "cca2b35f-2b62-4e60-9979-ff9317ee5aff": {
+            "components": [
+                {
+                    "name": "transform", 
+                    "props": {
+                        "position": {
+                            "x": -3.4218618869781494, 
+                            "y": 9.68187141418457, 
+                            "z": 26.08929443359375
+                        }, 
+                        "rotation": {
+                            "x": -0.3600161939949856, 
+                            "y": 0.4189607608061648, 
+                            "z": 0.1519520574193791
+                        }, 
+                        "scale": {
+                            "x": 1, 
+                            "y": 1, 
+                            "z": 1
+                        }
+                    }
+                }
+            ], 
+            "parent": "d32b1c4e-d08e-4fb0-9107-4c88a281ee71", 
+            "index": 51
+        }, 
+        "fca604f3-9ad1-426d-8aa4-5fbbbd87ac08": {
+            "components": [
+                {
+                    "name": "transform", 
+                    "props": {
+                        "position": {
+                            "x": -5.581181049346924, 
+                            "y": 1.6562066078186035, 
+                            "z": 0.394255131483078
+                        }, 
+                        "rotation": {
+                            "x": -3.0057343129494565, 
+                            "y": 1.316513125786014, 
+                            "z": 3.0100520787944722
+                        }, 
+                        "scale": {
+                            "x": 1, 
+                            "y": 1, 
+                            "z": 1
+                        }
+                    }
+                }
+            ], 
+            "parent": "d32b1c4e-d08e-4fb0-9107-4c88a281ee71", 
+            "index": 52
+        }, 
+        "566836ac-2e0e-4cc6-bf11-946ae4b5105e": {
+            "components": [
+                {
+                    "name": "transform", 
+                    "props": {
+                        "position": {
+                            "x": 0, 
+                            "y": 14.265583992004395, 
+                            "z": 28.53116798400879
+                        }, 
+                        "rotation": {
+                            "x": -0.4636476048172207, 
+                            "y": 0, 
+                            "z": 0
+                        }, 
+                        "scale": {
+                            "x": 1, 
+                            "y": 1, 
+                            "z": 1
+                        }
+                    }
+                }
+            ], 
+            "parent": "d32b1c4e-d08e-4fb0-9107-4c88a281ee71", 
+            "index": 53
+        }, 
+        "00247cb0-1e13-4fd6-901a-9f2eccab491e": {
+            "components": [
+                {
+                    "name": "transform", 
+                    "props": {
+                        "position": {
+                            "x": -4.327836036682129, 
+                            "y": 14.729456901550293, 
+                            "z": 8.968621253967285
+                        }, 
+                        "rotation": {
+                            "x": -0.34465673335567243, 
+                            "y": -0.17793740280455891, 
+                            "z": -0.06345501040470565
+                        }, 
+                        "scale": {
+                            "x": 1, 
+                            "y": 1, 
+                            "z": 1
+                        }
+                    }
+                }
+            ], 
+            "parent": "d32b1c4e-d08e-4fb0-9107-4c88a281ee71", 
+            "index": 54
+        }, 
+        "d9556514-8c37-404e-8654-f819ab14cc02": {
+            "components": [
+                {
+                    "name": "transform", 
+                    "props": {
+                        "position": {
+                            "x": 0.18270206451416016, 
+                            "y": 9.817875862121582, 
+                            "z": 0.490607351064682
+                        }, 
+                        "rotation": {
+                            "x": -0.22129388343655684, 
+                            "y": 0.015879221633156703, 
+                            "z": 0.0035723166801844165
+                        }, 
+                        "scale": {
+                            "x": 1, 
+                            "y": 1, 
+                            "z": 1
+                        }
+                    }
+                }
+            ], 
+            "parent": "d32b1c4e-d08e-4fb0-9107-4c88a281ee71", 
+            "index": 55
+        }, 
+        "e24c3430-ca72-4044-aeb6-686354038a8d": {
+            "components": [
+                {
+                    "name": "transform", 
+                    "props": {
+                        "position": {
+                            "x": 3.163801908493042, 
+                            "y": 1.8413662910461426, 
+                            "z": -10.366557121276855
+                        }, 
+                        "rotation": {
+                            "x": -0.050870490965546744, 
+                            "y": -0.3292317090447273, 
+                            "z": -0.01645996418254711
+                        }, 
+                        "scale": {
+                            "x": 1, 
+                            "y": 1, 
+                            "z": 1
+                        }
+                    }
+                }
+            ], 
+            "parent": "d32b1c4e-d08e-4fb0-9107-4c88a281ee71", 
+            "index": 56
+        }, 
+        "2b30c382-190a-46bc-96fd-99f5c77c7c2a": {
+            "components": [
+                {
+                    "name": "transform", 
+                    "props": {
+                        "position": {
+                            "x": 5.681832313537598, 
+                            "y": 1.9551072120666504, 
+                            "z": -9.447683334350586
+                        }, 
+                        "rotation": {
+                            "x": -0.07566440692960658, 
+                            "y": -0.4253551936423448, 
+                            "z": -0.03127201371767616
+                        }, 
+                        "scale": {
+                            "x": 1, 
+                            "y": 1, 
+                            "z": 1
+                        }
+                    }
+                }
+            ], 
+            "parent": "d32b1c4e-d08e-4fb0-9107-4c88a281ee71", 
+            "index": 57
+        }, 
+        "8eb4b1d4-cdaa-43b2-b8b3-d4bafd97a1f7": {
+            "components": [
+                {
+                    "name": "transform", 
+                    "props": {
+                        "position": {
+                            "x": 1.352023959159851, 
+                            "y": 2.3199069499969482, 
+                            "z": -10.95284366607666
+                        }, 
+                        "rotation": {
+                            "x": -0.14850795956964327, 
+                            "y": -0.09738862998176617, 
+                            "z": -0.014546211416220702
+                        }, 
+                        "scale": {
+                            "x": 1, 
+                            "y": 1, 
+                            "z": 1
+                        }
+                    }
+                }
+            ], 
+            "parent": "d32b1c4e-d08e-4fb0-9107-4c88a281ee71", 
+            "index": 58
+        }, 
+        "3a65025c-b8a8-4958-a2ce-b0353e93d7f2": {
+            "components": [
+                {
+                    "name": "transform", 
+                    "props": {
+                        "position": {
+                            "x": -5.416996479034424, 
+                            "y": 2.83752703666687, 
+                            "z": -9.979498863220215
+                        }, 
+                        "rotation": {
+                            "x": -0.2603656185609966, 
+                            "y": 0.3977662972922845, 
+                            "z": 0.10283374605540127
+                        }, 
+                        "scale": {
+                            "x": 1, 
+                            "y": 1, 
+                            "z": 1
+                        }
+                    }
+                }
+            ], 
+            "parent": "d32b1c4e-d08e-4fb0-9107-4c88a281ee71", 
+            "index": 59
+        }, 
+        "16b730d6-e31c-4307-aeb7-f8462bf69a54": {
+            "components": [
+                {
+                    "name": "transform", 
+                    "props": {
+                        "position": {
+                            "x": -0.05643830448389053, 
+                            "y": 13.591090202331543, 
+                            "z": 0.48211124539375305
+                        }, 
+                        "rotation": {
+                            "x": -0.46364972852917324, 
+                            "y": 0.0029115458170974676, 
+                            "z": 0.0014557775380278596
+                        }, 
+                        "scale": {
+                            "x": 1, 
+                            "y": 1, 
+                            "z": 1
+                        }
+                    }
+                }
+            ], 
+            "parent": "d32b1c4e-d08e-4fb0-9107-4c88a281ee71", 
+            "index": 60
+        }, 
+        "d3b2612a-20f8-47c9-b6d0-bef8667ec102": {
+            "components": [
+                {
+                    "name": "transform", 
+                    "props": {
+                        "position": {
+                            "x": -9.091754913330078, 
+                            "y": 4.761704921722412, 
+                            "z": 3.2053329944610596
+                        }, 
+                        "rotation": {
+                            "x": -0.786391142721998, 
+                            "y": -0.7458076788795927, 
+                            "z": -0.5971179461339868
+                        }, 
+                        "scale": {
+                            "x": 1, 
+                            "y": 1, 
+                            "z": 1
+                        }
+                    }
+                }
+            ], 
+            "parent": "d32b1c4e-d08e-4fb0-9107-4c88a281ee71", 
+            "index": 61
+        }, 
+        "15e53d3a-95b1-4a85-801d-1a7fc19d701a": {
+            "components": [
+                {
+                    "name": "transform", 
+                    "props": {
+                        "position": {
+                            "x": 2.267427444458008, 
+                            "y": 8.182210922241211, 
+                            "z": 9.281954765319824
+                        }, 
+                        "rotation": {
+                            "x": -0.9492781974511788, 
+                            "y": 1.0976377660799275, 
+                            "z": 0.8932553136040906
+                        }, 
+                        "scale": {
+                            "x": 1, 
+                            "y": 1, 
+                            "z": 1
+                        }
+                    }
+                }
+            ], 
+            "parent": "d32b1c4e-d08e-4fb0-9107-4c88a281ee71", 
+            "index": 62
+        }, 
+        "16b74f5e-0c7a-4c5c-83d7-96a0ea111909": {
+            "components": [
+                {
+                    "name": "transform", 
+                    "props": {
+                        "position": {
+                            "x": 0, 
+                            "y": 6.599999904632568, 
+                            "z": -13
+                        }, 
+                        "rotation": {
+                            "x": 0, 
+                            "y": 0, 
+                            "z": 0
+                        }, 
+                        "scale": {
+                            "x": 10.5, 
+                            "y": 5, 
+                            "z": 1
+                        }
+                    }
+                }, 
+                {
+                    "name": "shadow", 
+                    "props": {
+                        "cast": true, 
+                        "receive": true
+                    }
+                }, 
+                {
+                    "name": "media", 
+                    "props": {
+                        "controls": false, 
+                        "autoplay": true, 
+                        "paths": [
+                            "__$project$__/default-project/assets/SampleVideo.mp4"
+                        ], 
+                        "playMode": "loop", 
+                        "isMusic": false
+                    }
+                }, 
+                {
+                    "name": "audio", 
+                    "props": {
+                        "distanceModel": "inverse", 
+                        "rolloffFactor": 3, 
+                        "refDistance": 1, 
+                        "maxDistance": 40, 
+                        "coneInnerAngle": 360, 
+                        "coneOuterAngle": 0, 
+                        "coneOuterGain": 0
+                    }
+                }
+            ], 
+            "parent": "d32b1c4e-d08e-4fb0-9107-4c88a281ee71", 
+            "index": 63, 
+            "name": "Video"
+        }, 
+        "9547191e-5560-46d8-8646-82a531739de5": {
+            "components": [
+                {
+                    "name": "transform", 
+                    "props": {
+                        "position": {
+                            "x": 0.7425500154495239, 
+                            "y": 7.846075534820557, 
+                            "z": 10.710638046264648
+                        }, 
+                        "rotation": {
+                            "x": -0.04816076411257012, 
+                            "y": 0.03251489895555107, 
+                            "z": 0.0015668767688346787
+                        }, 
+                        "scale": {
+                            "x": 1, 
+                            "y": 1, 
+                            "z": 1
+                        }
+                    }
+                }
+            ], 
+            "parent": "d32b1c4e-d08e-4fb0-9107-4c88a281ee71", 
+            "index": 64
+        }, 
+        "4bdb5004-f7bb-4ef4-a4f0-cfe2e56128e5": {
+            "components": [
+                {
+                    "name": "transform", 
+                    "props": {
+                        "position": {
+                            "x": 0, 
+                            "y": 0, 
+                            "z": 0
+                        }, 
+                        "rotation": {
+                            "x": 0, 
+                            "y": 0, 
+                            "z": 0
+                        }, 
+                        "scale": {
+                            "x": 1, 
+                            "y": 1, 
+                            "z": 1
+                        }
+                    }
+                }, 
+                {
+                    "name": "visible", 
+                    "props": { }
+                }, 
+                {
+                    "name": "shadow", 
+                    "props": {
+                        "cast": true, 
+                        "receive": true
+                    }
+                }, 
+                {
+                    "name": "gltf-model", 
+                    "props": {
+                        "src": "https://xr-resources.yee.link/ey/AnYong_Sky.glb", 
+                        "materialOverrides": [ ], 
+                        "generateBVH": false, 
+                        "matrixAutoUpdate": true
+                    }
+                }, 
+                {
+                    "name": "envmap", 
+                    "props": {
+                        "type": "Skybox", 
+                        "envMapTextureType": "Cubemap", 
+                        "envMapSourceColor": 1193046, 
+                        "envMapSourceURL": "/hdr/cubemap/skyboxsun25deg/", 
+                        "envMapIntensity": 1, 
+                        "envMapBake": {
+                            "bakeType": "Baked", 
+                            "resolution": 2048, 
+                            "refreshMode": "OnAwake", 
+                            "envMapOrigin": "", 
+                            "boxProjection": true, 
+                            "bakePosition": {
+                                "x": 0, 
+                                "y": 0, 
+                                "z": 0
+                            }, 
+                            "bakePositionOffset": {
+                                "x": 0, 
+                                "y": 0, 
+                                "z": 0
+                            }, 
+                            "bakeScale": {
+                                "x": 1, 
+                                "y": 1, 
+                                "z": 1
+                            }
+                        }
+                    }
+                }, 
+                {
+                    "name": "loop-animation", 
+                    "props": {
+                        "activeClipIndex": -1, 
+                        "hasAvatarAnimations": false
+                    }
+                }
+            ], 
+            "parent": "d32b1c4e-d08e-4fb0-9107-4c88a281ee71", 
+            "index": 65, 
+            "name": "Model 2"
+        }, 
+        "f653b047-96f7-481e-b118-dd212fd0bc28": {
+            "components": [
+                {
+                    "name": "transform", 
+                    "props": {
+                        "position": {
+                            "x": 1.7905921936035156, 
+                            "y": 13.133563995361328, 
+                            "z": 34.34828186035156
+                        }, 
+                        "rotation": {
+                            "x": -0.37220300551406255, 
+                            "y": 0.05155638150600481, 
+                            "z": 0.020115968967547825
+                        }, 
+                        "scale": {
+                            "x": 1, 
+                            "y": 1, 
+                            "z": 1
+                        }
+                    }
+                }
+            ], 
+            "parent": "d32b1c4e-d08e-4fb0-9107-4c88a281ee71", 
+            "index": 66
+        }, 
+        "147e7222-6ffd-4633-abf4-cb24ea6d32e2": {
+            "components": [
+                {
+                    "name": "transform", 
+                    "props": {
+                        "position": {
+                            "x": 14.074214935302734, 
+                            "y": 9.474811553955078, 
+                            "z": 5.44956636428833
+                        }, 
+                        "rotation": {
+                            "x": -1.0488390655012734, 
+                            "y": 0.91047897123272, 
+                            "z": 0.9413664974443602
+                        }, 
+                        "scale": {
+                            "x": 1, 
+                            "y": 1, 
+                            "z": 1
+                        }
+                    }
+                }
+            ], 
+            "parent": "d32b1c4e-d08e-4fb0-9107-4c88a281ee71", 
+            "index": 67
+        }, 
+        "aa9e7f30-5976-4ad7-bbbf-221adcbf8e23": {
+            "components": [
+                {
+                    "name": "transform", 
+                    "props": {
+                        "position": {
+                            "x": 0, 
+                            "y": 6.699999809265137, 
+                            "z": -13.100000381469727
+                        }, 
+                        "rotation": {
+                            "x": 0, 
+                            "y": 0, 
+                            "z": 0
+                        }, 
+                        "scale": {
+                            "x": 10.399999618530273, 
+                            "y": 5, 
+                            "z": 2.220446049250313e-16
+                        }
+                    }
+                }, 
+                {
+                    "name": "visible", 
+                    "props": { }
+                }, 
+                {
+                    "name": "shadow", 
+                    "props": {
+                        "cast": true, 
+                        "receive": true
+                    }
+                }, 
+                {
+                    "name": "image", 
+                    "props": {
+                        "source": "https://xr-resources.yee.link/ey/1666627398825.jpg", 
+                        "alphaMode": "Opaque", 
+                        "alphaCutoff": 0.5, 
+                        "projection": "Flat", 
+                        "side": 2
+                    }
+                }
+            ], 
+            "parent": "d32b1c4e-d08e-4fb0-9107-4c88a281ee71", 
+            "index": 68, 
+            "name": "largeScreen"
+        }, 
+        "b592002e-3150-48bd-ad5d-cf6480873e19": {
+            "components": [
+                {
+                    "name": "transform", 
+                    "props": {
+                        "position": {
+                            "x": 4.1167378425598145, 
+                            "y": 8.975022315979004, 
+                            "z": 9.931864738464355
+                        }, 
+                        "rotation": {
+                            "x": -0.11237508825706231, 
+                            "y": 0.18440284715012373, 
+                            "z": 0.0206892662431422
+                        }, 
+                        "scale": {
+                            "x": 1, 
+                            "y": 1, 
+                            "z": 1
+                        }
+                    }
+                }
+            ], 
+            "parent": "d32b1c4e-d08e-4fb0-9107-4c88a281ee71", 
+            "index": 69
+        }, 
+        "20ddd1f3-c100-4c5c-99de-bb3d4d93e499": {
+            "components": [
+                {
+                    "name": "transform", 
+                    "props": {
+                        "position": {
+                            "x": 0, 
+                            "y": 4.099999904632568, 
+                            "z": 0
+                        }, 
+                        "rotation": {
+                            "x": 0, 
+                            "y": 0, 
+                            "z": 0
+                        }, 
+                        "scale": {
+                            "x": 4.900000095367432, 
+                            "y": 4.900000095367432, 
+                            "z": 4.900000095367432
+                        }
+                    }
+                }, 
+                {
+                    "name": "visible", 
+                    "props": { }
+                }, 
+                {
+                    "name": "collider", 
+                    "props": {
+                        "bodyType": 2, 
+                        "shapeType": 10, 
+                        "isTrigger": false, 
+                        "removeMesh": false, 
+                        "collisionLayer": 1, 
+                        "collisionMask": 7
+                    }
+                }
+            ], 
+            "parent": "d32b1c4e-d08e-4fb0-9107-4c88a281ee71", 
+            "index": 70, 
+            "name": "collider"
+        }, 
+        "f5f1395f-beea-462c-8220-9172dceecb30": {
+            "components": [
+                {
+                    "name": "transform", 
+                    "props": {
+                        "position": {
+                            "x": 16.30000114440918, 
+                            "y": 0.8999999761581421, 
+                            "z": -6.000000476837158
+                        }, 
+                        "rotation": {
+                            "x": 0, 
+                            "y": 0.4310963123264857, 
+                            "z": 0
+                        }, 
+                        "scale": {
+                            "x": 1.299768328666687, 
+                            "y": 3.700000047683716, 
+                            "z": 1.199785828590393
+                        }
+                    }
+                }, 
+                {
+                    "name": "visible", 
+                    "props": { }
+                }, 
+                {
+                    "name": "collider", 
+                    "props": {
+                        "bodyType": 1, 
+                        "shapeType": 1, 
+                        "isTrigger": false, 
+                        "removeMesh": false, 
+                        "collisionLayer": 1, 
+                        "collisionMask": 7
+                    }
+                }
+            ], 
+            "parent": "d32b1c4e-d08e-4fb0-9107-4c88a281ee71", 
+            "index": 71, 
+            "name": "collider 2"
+        }, 
+        "95068eab-2162-460f-b30b-dc1d455381b0": {
+            "components": [
+                {
+                    "name": "transform", 
+                    "props": {
+                        "position": {
+                            "x": 10.671086311340332, 
+                            "y": 3.216993808746338, 
+                            "z": -6.172990322113037
+                        }, 
+                        "rotation": {
+                            "x": -2.330929400227483, 
+                            "y": -1.0598001370997259, 
+                            "z": -2.3992006864321214
+                        }, 
+                        "scale": {
+                            "x": 1, 
+                            "y": 1, 
+                            "z": 1
+                        }
+                    }
+                }
+            ], 
+            "parent": "d32b1c4e-d08e-4fb0-9107-4c88a281ee71", 
+            "index": 72
+        }, 
+        "d53ef487-8131-4463-8c51-6a42ab21e9f7": {
+            "components": [
+                {
+                    "name": "transform", 
+                    "props": {
+                        "position": {
+                            "x": -3.326488494873047, 
+                            "y": 16.13144874572754, 
+                            "z": -13.371529579162598
+                        }, 
+                        "rotation": {
+                            "x": -2.262918642977712, 
+                            "y": -0.1574466889077506, 
+                            "z": -2.95464121097182
+                        }, 
+                        "scale": {
+                            "x": 0.9999999403953552, 
+                            "y": 1, 
+                            "z": 1
+                        }
+                    }
+                }
+            ], 
+            "parent": "d32b1c4e-d08e-4fb0-9107-4c88a281ee71", 
+            "index": 73
+        }, 
+        "1d0977d3-ddd7-4666-bcfa-648b7f313a52": {
+            "components": [
+                {
+                    "name": "transform", 
+                    "props": {
+                        "position": {
+                            "x": 0, 
+                            "y": 5, 
+                            "z": 10
+                        }, 
+                        "rotation": {
+                            "x": 0, 
+                            "y": 0, 
+                            "z": 0
+                        }, 
+                        "scale": {
+                            "x": 1, 
+                            "y": 1, 
+                            "z": 1
+                        }
+                    }
+                }
+            ], 
+            "parent": "d32b1c4e-d08e-4fb0-9107-4c88a281ee71", 
+            "index": 74
+        }, 
+        "e0cae4a6-b7c9-4b58-be45-ae619db537f6": {
+            "components": [
+                {
+                    "name": "transform", 
+                    "props": {
+                        "position": {
+                            "x": 0, 
+                            "y": 5, 
+                            "z": 10
+                        }, 
+                        "rotation": {
+                            "x": 0, 
+                            "y": 0, 
+                            "z": 0
+                        }, 
+                        "scale": {
+                            "x": 1, 
+                            "y": 1, 
+                            "z": 1
+                        }
+                    }
+                }
+            ], 
+            "parent": "d32b1c4e-d08e-4fb0-9107-4c88a281ee71", 
+            "index": 75
+        }, 
+        "20041312-3ddc-4840-a487-20808f24ac87": {
+            "components": [
+                {
+                    "name": "transform", 
+                    "props": {
+                        "position": {
+                            "x": 1.444502592086792, 
+                            "y": 4.794749736785889, 
+                            "z": 30.793487548828125
+                        }, 
+                        "rotation": {
+                            "x": -0.15446626422631898, 
+                            "y": 0.046317688056623695, 
+                            "z": 0.007209267254923757
+                        }, 
+                        "scale": {
+                            "x": 1, 
+                            "y": 1, 
+                            "z": 1
+                        }
+                    }
+                }
+            ], 
+            "parent": "d32b1c4e-d08e-4fb0-9107-4c88a281ee71", 
+            "index": 76
+        }
+    }, 
+    "root": "d32b1c4e-d08e-4fb0-9107-4c88a281ee71"
+}
