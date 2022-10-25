@@ -2948,7 +2948,7 @@
                 {
                     "name": "image", 
                     "props": {
-                        "source": "https://xr-resources.yee.link/ey/1666627398825.jpg", 
+                        "source": "https://xr-resources.yee.link/ey/video.png", 
                         "alphaMode": "Opaque", 
                         "alphaCutoff": 0.5, 
                         "projection": "Flat", 
@@ -3173,7 +3173,7 @@
             ], 
             "parent": "d32b1c4e-d08e-4fb0-9107-4c88a281ee71", 
             "index": 75
-        }, 
+        },
         "20041312-3ddc-4840-a487-20808f24ac87": {
             "components": [
                 {
@@ -3199,55 +3199,7 @@
             ], 
             "parent": "d32b1c4e-d08e-4fb0-9107-4c88a281ee71", 
             "index": 76
-        },
-        "430d388f-820d-4207-86a6-08808b763a2b": {
-            "components": [
-              {
-                "name": "transform",
-                "props": {
-                  "position": {
-                    "x": 0,
-                    "y": 6,
-                    "z": -12.300000190734863
-                  },
-                  "rotation": {
-                    "x": 0,
-                    "y": 0,
-                    "z": 0
-                  },
-                  "scale": {
-                    "x": 11,
-                    "y": 4.5,
-                    "z": 2.220446049250313e-16
-                  }
-                }
-              },
-              {
-                "name": "visible",
-                "props": {}
-              },
-              {
-                "name": "shadow",
-                "props": {
-                  "cast": true,
-                  "receive": true
-                }
-              },
-              {
-                "name": "image",
-                "props": {
-                  "source": "__$project$__/ey-project/public/video.png",
-                  "alphaMode": "Opaque",
-                  "alphaCutoff": 0.5,
-                  "projection": "Flat",
-                  "side": 2
-                }
-              }
-            ],
-            "parent": "d32b1c4e-d08e-4fb0-9107-4c88a281ee71",
-            "index": 77,
-            "name": "Image"
-          }
+        }
     }, 
     "root": "d32b1c4e-d08e-4fb0-9107-4c88a281ee71"
 }
